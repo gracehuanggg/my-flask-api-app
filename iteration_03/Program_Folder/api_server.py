@@ -21,8 +21,8 @@ random_meal = [
         "cuisine":"Thai"
      },
      {
-         "name":"Shakashuka",
-         "category":"Vegeterian",
+         "name":"Shakshuka",
+         "category":"Vegetarian",
          "cuisine":"Middle Eastern"
      },
      {
@@ -43,7 +43,7 @@ def home():
     html_content = """
         <h1>Random Meal API</h1>
         <p> Be sure to visit http://127.0.0.1:5000/api/meal for a random meal </p>
-        <p>Be sure to visit http://127.0.0.1:5000/api/meals/3 for 3 funny jokes!</p>
+        <p>Be sure to visit http://127.0.0.1:5000/api/meals/3 for 3 random meals!</p>
     """
     return html_content
 
